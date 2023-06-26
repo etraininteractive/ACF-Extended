@@ -1,0 +1,28 @@
+{
+	"name": "etrain-interactive/acf-extended",
+	"description": "Extends the ACF-Pro plugin",
+	"type": "package",
+	"keywords": [],
+	"homepage": "https://bitbucket.org/etrain-interactive/acf-extended",
+	"repositories" : [
+		{
+			"type" : "composer",
+			"url"  : "https://wpackagist.org"
+		},
+        {
+            "type": "composer",
+            "url": "https://connect.advancedcustomfields.com"
+        }
+	],
+	"require": {
+        "wpengine/advanced-custom-fields-pro": "*"
+    },
+    "require-dev": {
+
+    },
+  "autoload": {
+  },
+  "allow-plugins": {
+    "composer/installers": false
+    }
+}
