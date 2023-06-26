@@ -1,7 +1,7 @@
 {
 	"name": "etrain-interactive/acf-extended",
 	"description": "Extends the ACF-Pro plugin",
-	"type": "package",
+	"type": "wordpress-plugin",
 	"keywords": [],
 	"homepage": "https://bitbucket.org/etrain-interactive/acf-extended",
 	"repositories" : [
@@ -21,8 +21,5 @@
 
     },
   "autoload": {
-  },
-  "allow-plugins": {
-    "composer/installers": false
-    }
+  }
 }
